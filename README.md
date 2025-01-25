@@ -33,29 +33,25 @@ A web-based SSH terminal application that allows users to connect to remote serv
    cd web-based-ssh-terminal
    
 2. Set up the frontend:
-  ```bash
-  cd frontend
-  npm install
-  ng serve
+   ```bash
+   cd frontend
+   npm install
+   ng serve
 
 3. Set up the backend:
-  ```bash
-  cd backend
-  mvn clean install
-  java -jar target/ssh-terminal-backend.jar
+   ```bash
+   cd backend
+   mvn clean install
+   java -jar target/ssh-terminal-backend.jar
+
 Access the application at http://localhost:4200 and start using the terminal
 
 ### 📂 Repository Structure
-/frontend: Angular-based terminal UI.
-/backend: Spring Boot server for SSH and WebSocket communication.
-🌟 Learnings and Insights
-Integrated xterm.js for a seamless terminal experience.
-Implemented secure SSH connections using JSch.
-Handled real-time communication via WebSockets.
-Gained hands-on experience with responsive design and error handling.
-📜 License
-This project is licensed under the MIT License.
+- /frontend: Angular-based terminal UI.
+- /backend: Spring Boot server for SSH and WebSocket communication.
+### 🌟 Learnings and Insights
+- Integrated xterm.js for a seamless terminal experience.
+- Implemented secure SSH connections using JSch.
+- Handled real-time communication via WebSockets.
+- Gained hands-on experience with responsive design and error handling.
 
-📎 Links
-Project Demo: [Insert Demo Link]
-GitHub: [Insert GitHub Link]
