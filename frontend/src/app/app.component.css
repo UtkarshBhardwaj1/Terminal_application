@@ -1,0 +1,26 @@
+/* Custom font and spacing */
+.xterm {
+    font-family: 'Ubuntu Mono', monospace; /* Use a Linux terminal font */
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  
+  /* Custom scroll bar */
+  .xterm-scroll-area::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .xterm-scroll-area::-webkit-scrollbar-thumb {
+    background: #555753;
+    border-radius: 5px;
+  }
+  
+  .xterm-scroll-area::-webkit-scrollbar-thumb:hover {
+    background: #2E3436;
+  }
+  
+  /* Terminal border */
+  .xterm-viewport {
+    border: 1px solid #4D4D4D;
+  }
+  
