@@ -1,47 +1,27 @@
-# Web-Based SSH Terminal - Frontend  
+# Terminal
 
-This is the **frontend** part of the Web-Based SSH Terminal project, built using **Angular** and **xterm.js**. It provides an interactive terminal interface for executing commands on a remote server via SSH.  
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.4.
 
-## 🚀 Features  
-- **Interactive Terminal**: A dynamic terminal UI built with `xterm.js`.  
-- **Real-Time Communication**: Communicates with the backend using WebSockets.  
-- **Custom Themes**: Styled to replicate a classic terminal interface.  
-- **Command Output Display**: Outputs results of commands in real-time.  
-- **Responsive Design**: Adjusts terminal size dynamically based on the window size.  
+## Development server
 
-## 🛠️ Technologies  
-- **Angular**: Framework for building the frontend.  
-- **xterm.js**: Library for terminal emulation.  
-- **WebSockets**: For real-time data transfer between frontend and backend.  
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## 🏗️ Setup Instructions  
+## Code scaffolding
 
-### Prerequisites  
-- Node.js (v16 or later)  
-- Angular CLI  
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### Steps  
-1. Clone the repository:  
-   ```bash
-   git clone <frontend-repo-link>
-   cd frontend
-   
-2. Install dependencies:
-  ```bash
-  npm install
+## Build
 
-3. Start the development server:
-  ```bash
-  ng serve
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-#### The application will be accessible at http://localhost:4200.
+## Running unit tests
 
-##📁 Project Structure
-- src/app/components: Contains UI components like terminal and input prompts.
-- src/app/services: WebSocket service for real-time communication.
-- src/assets: Static assets like styles and images.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## 🌟 Key Learnings
-- Integrating xterm.js with Angular for a smooth terminal experience.
-- Efficient handling of WebSocket events for real-time updates.
-- Responsive design principles for terminal resizing.
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
