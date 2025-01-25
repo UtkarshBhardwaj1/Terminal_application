@@ -1,7 +1,4 @@
 
-
-### README for Backend:  
-
 # Web-Based SSH Terminal - Backend  
 
 This is the **backend** part of the Web-Based SSH Terminal project, built using **Spring Boot** and **JSch**. It manages SSH connections, executes commands on remote servers, and streams the output to the frontend in real-time.  
@@ -30,14 +27,12 @@ This is the **backend** part of the Web-Based SSH Terminal project, built using 
    cd backend
 
 2. Build the project:
-
-```bash
-  mvn clean install
+   ```bash
+   mvn clean install
 
 3. Run the application:
-
-```bash
-  java -jar target/ssh-terminal-backend.jar
+   ```bash
+   java -jar target/ssh-terminal-backend.jar
 
 
 The backend will start on http://localhost:8080.
