@@ -36,19 +36,13 @@ This is the **backend** part of the Web-Based SSH Terminal project, built using 
 
 
 The backend will start on http://localhost:8080.
-```
 
 ## 📁 Project Structure
 - src/main/java: Contains application logic and WebSocket handlers.
-
 - src/main/resources: Configuration files (e.g., application.properties).
-
 - logs/: Log files for debugging and monitoring.
 
 ## 🌟 Key Learnings
-
 - Establishing secure SSH connections using JSch.
-
 - Real-time data transfer via WebSockets.
-
 - Managing concurrent SSH sessions for multiple clients.
