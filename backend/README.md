@@ -1,8 +1,7 @@
----
+
 
 ### README for Backend:  
 
-```markdown
 # Web-Based SSH Terminal - Backend  
 
 This is the **backend** part of the Web-Based SSH Terminal project, built using **Spring Boot** and **JSch**. It manages SSH connections, executes commands on remote servers, and streams the output to the frontend in real-time.  
