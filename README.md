@@ -29,7 +29,7 @@ A web-based SSH terminal application that allows users to connect to remote serv
 ### Steps  
 1. Clone the repository:  
    ```bash
-   git clone <repo-link>
+   git clone https://github.com/UtkarshBhardwaj1/Terminal_application.git
    cd web-based-ssh-terminal
    
 2. Set up the frontend:
