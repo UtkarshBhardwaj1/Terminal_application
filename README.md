@@ -42,7 +42,7 @@ A web-based SSH terminal application that allows users to connect to remote serv
    ```bash
    cd backend
    mvn clean install
-   java -jar target/ssh-terminal-backend.jar
+   java -jar target/ssh-terminal-0.0.1-SNAPSHOT.jar
 
 Access the application at http://localhost:4200 and start using the terminal
 
